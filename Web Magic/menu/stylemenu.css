@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+    background: #553434;
+}
+
+div{
+    background: #553434;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imagenesrelleno {
+    list-style: none;
+    text-decoration: none;
+    background: none;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.imagenesrelleno {
+display: flex;
+border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    background: none;
+}
+.menu li:hover {
+ scale:1.2
+}

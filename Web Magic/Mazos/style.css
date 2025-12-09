@@ -1,0 +1,139 @@
+body{
+font-family: serif;
+  background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg);
+  color:white;
+}
+
+.mazos {
+display: flex;
+justify-content: center;
+gap: 5px;
+flex-wrap: wrap;
+}
+
+.mazos > div {
+  flex: 1 1 300px;         
+  max-width: 350px;          
+  min-width: 125px;          
+  box-sizing: border-box;    
+}
+
+header{
+text-align: center;
+margin-bottom: auto;
+}
+
+.logo{
+vertical-align: center;
+}
+
+h2,p,a{
+    text-shadow: 1px 1px black;
+}
+
+.H21{
+    color: chartreuse;
+}
+a{
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    box-shadow: 3px 3px rgb(82, 78, 78);
+}
+.Yuma{
+background: #2B3D28;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.H22{
+    color: #d37575;
+}
+.Terra{
+background: #745454;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.H23{
+    color: #1453ff;
+}
+
+.Yuriko{
+background: #090730;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    margin-top: auto;
+    line-height: 0 auto;
+}
+
+.H24{
+    color: #03771c;
+}
+
+.Polilla{
+background: #011606;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.H25{
+color: #688ca8; 
+}
+
+.letra5{
+    color: #647480;
+}
+.Arbitro{
+background: #b0defc;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.mazos div:hover {
+scale: 1.1;
+}
+
+.logo{
+    height: auto;
+    aspect-ratio: 4/3;
+}
+
+div img:hover{
+    scale:1.1
+}
