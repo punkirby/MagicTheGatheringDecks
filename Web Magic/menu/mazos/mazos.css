@@ -1,0 +1,151 @@
+body{
+  font-family: serif;
+  background-image: url(https://thumbs.dreamstime.com/b/un-pergamino-marr%C3%B3n-oscuro-casi-negro-con-bordes-jaleados-irregulares-tinta-sutil-peque%C3%B1a-de-color-peque%C3%B1as-manchas-y-una-marca-335801226.jpg);
+  color:white;
+  max-width: 960px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.mazos {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+flex: 1 1 0.33
+}
+
+.mazos > div {
+  flex: 1 1 0x;         
+  max-width: 350px;          
+  min-width: 125px;          
+  box-sizing: border-box;    
+  border: 1.5px solid black;
+  transition: 0.5s ease;
+}
+
+header{
+text-align: center;
+margin-bottom: auto;
+}
+
+.logo{
+vertical-align: center;
+}
+
+h1{
+    text-shadow: 1px 1px black;
+    margin: 0 auto;
+}
+
+h2,p,a{
+    text-shadow: 1px 1px black;
+}
+
+.H21{
+    color: chartreuse;
+}
+a{
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    box-shadow: 3px 3px rgb(82, 78, 78);
+}
+.Yuma{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ceoEBh4IwW9-CLkk7Smz6QYqiXc90vCaIg&s);   
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.H22{
+    color: #d37575;
+}
+.Terra{
+background-image: url(https://thumbs.dreamstime.com/b/rosa-oscuro-de-m%C3%A1rmol-59078586.jpg);
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.H23{
+    color: #1453ff;
+}
+
+.Yuriko{
+background-image: url(https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFybW9sJTIwYXp1bHxlbnwwfHwwfHx8MA%3D%3D);
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px black;
+    margin-top: auto;
+    line-height: 0 auto;
+}
+
+.H24{
+    color: #03771c;
+}
+
+.Polilla{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7nXFabWNwgv4LoH--U9nDqS3wylf3STOEDg&s);
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+text-shadow: 4px 4px black;
+}
+
+.H25{
+color: #688ca8; 
+}
+
+.letra5{
+    color: #647480;
+}
+.Arbitro{
+background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-acuarela-tinta-alcohol_23-2149224913.jpg?semt=ais_hybrid&w=740&q=80);
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.mazos div:hover {
+transform: scale(1.1);
+transition: 0.5s ease;
+}
+
+.logo {
+    height: auto;
+    aspect-ratio: 4/3;
+}
+
+ div img {
+    border: 1.5px solid black;
+}
