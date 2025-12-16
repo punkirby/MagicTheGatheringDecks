@@ -1,0 +1,96 @@
+body{
+font-family: serif;
+  background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg);
+  color:white;
+}
+
+h1,h2,p,a{
+    text-shadow: 2px 2px black;
+}
+
+.H21{
+    color: chartreuse;
+}
+a{
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    text-align: center;
+    display: block;
+    padding: 20px
+}
+.Yuma{
+background: #2B3D28;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.H22{
+    color: #d37575;
+}
+.Terra{
+background: #745454;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.H23{
+    color: #1453ff;
+}
+
+.Yuriko{
+background: #090730;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+.H24{
+    color: #03771c;
+}
+
+.Polilla{
+background: #011606;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
+
+.H25{
+color: #688ca8; 
+}
+
+.Arbitro{
+background: #b0defc;
+padding: 20px;
+max-width: 550px;
+min-width: 300px;
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+}
