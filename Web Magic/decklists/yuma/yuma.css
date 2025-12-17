@@ -1,0 +1,1797 @@
+html{
+  background-image:url(https://media.wizards.com/images/magic/daily/wallpapers/Gruul_Wallpaper_2560x1440.jpg)
+}
+body{
+	font-family: MAGIC;
+	max-width: 960px;
+	min-width:320px;
+	font-weight: bold;
+	margin:40px auto;
+	background-image: url(https://img.archiexpo.es/images_ae/photo-mg/191030-17991963.webp);
+	padding:60px 0px;
+	border-radius:20px;
+	box-shadow:8px 8px 30px;
+  color: darkgreen;
+  flex-wrap: wrap;
+}
+
+@font-face {
+        font-family: MAGIC;
+        src: url(/decklists/fonts/MAGIC.ttf) format(truetype);
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
+h1{
+  text-align:center;
+  margin-bottom: 0 auto;
+  color:rgb(92, 235, 26);
+  border-bottom: white 3px solid;
+  padding-bottom: 60px;
+  text-shadow: 2px 2px black;
+
+}
+
+p{
+  font-size: 25px;
+}
+
+ul{
+  color:rgb(92, 235, 26);
+  text-shadow: 2px 2px black;
+  list-style: none;
+  margin: auto;
+}
+
+
+
+#comandante {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 3px solid white;
+  border-radius: 8px
+}
+#decklist {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+#decklist li {
+  margin: 12px 0;
+}
+
+#decklist li a {
+  color:rgb(92, 235, 26);
+  text-shadow: 2px 2px black;
+  text-decoration: none;
+}
+
+.CC{
+  text-align: left;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.C {
+  text-align: center;
+  display: inline-flex;
+}
+
+.carta {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview {
+  position: absolute;
+  display: none;           
+  top: -125px;
+  left: 180px;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta:hover .preview {
+  display: block;          
+}
+
+.carta3 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview3 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta3:hover .preview3 {
+  display: block;          
+}
+
+.carta4 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview4 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta4:hover .preview4 {
+  display: block;          
+}
+
+.carta5 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview5 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta5:hover .preview5 {
+  display: block;          
+}
+
+.carta6 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview6 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta6:hover .preview6 {
+  display: block;          
+}
+
+.carta7 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview7 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta7:hover .preview7 {
+  display: block;          
+}
+
+.carta8 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview8 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta8:hover .preview8 {
+  display: block;          
+}
+
+.carta9 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview9 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta9:hover .preview9 {
+  display: block;          
+}
+
+.carta10 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview10 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta10:hover .preview10 {
+  display: block;          
+}
+
+.carta11 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview11 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta11:hover .preview11 {
+  display: block;          
+}
+
+.carta12 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview12 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta12:hover .preview12 {
+  display: block;          
+}
+
+.carta13 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview13 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta13:hover .preview13 {
+  display: block;          
+}
+
+.carta14 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview14 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta14:hover .preview14 {
+  display: block;          
+}
+
+.carta15 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview15 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta15:hover .preview15 {
+  display: block;          
+}
+
+.carta16 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview16 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta16:hover .preview16 {
+  display: block;          
+}
+
+.carta17 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview17 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta17:hover .preview17 {
+  display: block;          
+}
+
+.carta18 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview18 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta18:hover .preview18 {
+  display: block;          
+}
+
+.carta19 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview19 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+  }
+
+.carta19:hover .preview19 {
+  display: block;          
+}
+
+.carta20 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview20 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+  }
+
+.carta20:hover .preview20 {
+  display: block;          
+}
+
+
+.carta21 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview21 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta21:hover .preview21 {
+  display: block;          
+}
+
+.carta22 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview22 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta22:hover .preview22 {
+  display: block;          
+}
+
+.carta23 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview23 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta23:hover .preview23 {
+  display: block;          
+}
+
+.carta24 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview24 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta24:hover .preview24 {
+  display: block;          
+}
+
+.carta25 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview25 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta25:hover .preview25 {
+  display: block;          
+}
+.carta26 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview26 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta26:hover .preview26 {
+  display: block;          
+}
+
+.carta27 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview27 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta27:hover .preview27 {
+  display: block;          
+}
+
+.carta28 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview28 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta28:hover .preview28 {
+  display: block;          
+}
+
+.carta29 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview29 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta29:hover .preview29 {
+  display: block;          
+}
+
+.carta30 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview30 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta30:hover .preview30 {
+  display: block;          
+}
+
+.carta31 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview31 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta31:hover .preview31 {
+  display: block;          
+}
+
+.carta32 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview32 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta32:hover .preview32 {
+  display: block;          
+}
+
+.carta33 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview33 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta33:hover .preview33 {
+  display: block;          
+}
+
+.carta34 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview34 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta34:hover .preview34 {
+  display: block;          
+}
+
+.carta35 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview35 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta35:hover .preview35 {
+  display: block;          
+}
+
+.carta36 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview36 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta36:hover .preview36 {
+  display: block;          
+}
+
+.carta37 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview37 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta37:hover .preview37 {
+  display: block;          
+}
+
+.carta38 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview38 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta38:hover .preview38 {
+  display: block;          
+}
+
+.carta39 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview39 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta39:hover .preview39 {
+  display: block;          
+}
+
+.carta40 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview40 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta40:hover .preview40 {
+  display: block;          
+}
+
+.carta41 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview41 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta41:hover .preview41 {
+  display: block;          
+}
+
+.carta42 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview42 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta42:hover .preview42 {
+  display: block;          
+}
+
+.carta43 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview43 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta43:hover .preview43 {
+  display: block;          
+}
+
+.carta44 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview44 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta44:hover .preview44 {
+  display: block;         
+}
+
+.carta45 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview45 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta45:hover .preview45 {
+  display: block;          
+}
+
+.carta46 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview46 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta46:hover .preview46 {
+  display: block;          
+}
+
+.carta47 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview47 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta47:hover .preview47 {
+  display: block;          
+}
+
+.carta48 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview48 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta48:hover .preview48 {
+  display: block;          
+}
+
+.carta49 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview49 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta49:hover .preview49 {
+  display: block;          
+}
+
+.carta50 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview50 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta50:hover .preview50 {
+  display: block;          
+}
+
+.carta51 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview51 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta51:hover .preview51 {
+  display: block;          
+}
+
+.preview52 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta52:hover .preview52 {
+  display: block;          
+}
+
+.carta53 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview53 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta53:hover .preview53 {
+  display: block;          
+}
+
+.carta54 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview54 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta54:hover .preview54 {
+  display: block;          
+}
+
+.carta55 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview55 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta55:hover .preview55 {
+  display: block;          
+}
+
+.carta56 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview56 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta56:hover .preview56 {
+  display: block;          
+}
+
+.carta57 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview57 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta57:hover .preview57 {
+  display: block;          
+}
+
+.carta58 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview58 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta58:hover .preview58 {
+  display: block;          
+}
+
+.carta59 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview59 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta59:hover .preview59 {
+  display: block;          
+}
+
+.carta60 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview60 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta60:hover .preview60 {
+  display: block;          
+}
+
+.carta61 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview61 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta61:hover .preview61 {
+  display: block;          
+}
+
+.carta62 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview62 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta62:hover .preview62 {
+  display: block;          
+}
+
+.carta63 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview63 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta63:hover .preview63 {
+  display: block;          
+}
+
+.carta64 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview64 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta64:hover .preview64 {
+  display: block;          
+}
+
+.carta65 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview65 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta65:hover .preview65 {
+  display: block;          
+}
+
+.carta66 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview66 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta66:hover .preview66 {
+  display: block;          
+}
+
+.carta67 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview67 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta67:hover .preview67 {
+  display: block;          
+}
+
+.carta68 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview68 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta68:hover .preview68 {
+  display: block;          
+}
+
+.carta69 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview69 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta69:hover .preview69 {
+  display: block;          
+}
+
+.carta70 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview70 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta70:hover .preview70 {
+  display: block;          
+}
+
+.carta71 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview71 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta71:hover .preview71 {
+  display: block;          
+}
+
+.carta72 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview72 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta72:hover .preview72 {
+  display: block;          
+}
+
+.carta73 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview73 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta73:hover .preview73 {
+  display: block;          
+}
+
+.carta74 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview74 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta74:hover .preview74 {
+  display: block;          
+}
+
+.carta75 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview75 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta75:hover .preview75 {
+  display: block;          
+}
+
+.carta76 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview76 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta76:hover .preview76 {
+  display: block;          
+}
+
+.carta77 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview77 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta77:hover .preview77 {
+  display: block;          
+}
+
+.carta78 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview78 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta78:hover .preview78 {
+  display: block;          
+}
+
+.carta79 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview79 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta79:hover .preview79 {
+  display: block;          
+}
+
+.carta80 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview80 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta80:hover .preview80 {
+  display: block;          
+}
+
+.carta81 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview81 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta81:hover .preview81 {
+  display: block;          
+}
+
+.carta82 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview82 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta82:hover .preview82 {
+  display: block;          
+}
+
+.carta83 {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+
+.preview83 {
+  position: absolute;
+  display: none;           
+  top: 25px;
+  left: 0;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.carta83:hover .preview83 {
+  display: block;          
+}
