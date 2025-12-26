@@ -1,0 +1,82 @@
+
+:root {
+    interpolate-size: allow-keywords;
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-image: url(https://wallpapers.com/images/hd/dark-green-background-tgn41irw6gvvcuc6.jpg);
+    color: aliceblue;
+    text-shadow: 5px 5px 8px rgb(9, 73, 9);
+    max-height: 500dvh;
+}
+
+main{
+    display: flex;
+    flex: 1 1 0;
+    gap: 50px;
+    justify-content: center;
+    background-image: url(https://img.archiexpo.es/images_ae/photo-mg/191030-17991963.jpg);
+    padding: 50px;
+    font-size: 25px;
+    font-family: Comic sans MS;
+    border: 3px solid rgb(6, 24, 6);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.toplogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+summary, ul, details li{
+    list-style: none;
+}
+
+details{
+    transition: all 0.4s ease-in-out;
+}
+
+.menu, 
+details ul:not(.Booster),
+.accesorios
+{
+    text-align: center;
+}
+
+main details details, 
+main details details details,
+.extra 
+{ 
+    margin-top: 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin-bottom: 30px;
+}
+
+
+/*details::details-content {
+  display: block; 
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+
+details[open]::details-content {
+  max-height: 5000px;
+  opacity: 1;
+} */
+details::details-content {
+	transition: height 0.4s ease, content-visibility 0.4s allow-discrete;
+	height: 0;
+	overflow: hidden;
+}
+details[open]::details-content {
+	height: auto;
+}
+
+
+

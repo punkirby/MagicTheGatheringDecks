@@ -1,0 +1,185 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-image: url(https://wallpapers.com/images/hd/dark-green-background-tgn41irw6gvvcuc6.jpg);
+    margin: 0 ;
+    flex-wrap: wrap;  
+}
+
+
+
+.menu div{
+    border: 4px solid rgb(24, 36, 24);
+}
+
+
+
+.toplogo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    mix-blend-mode: multiply;
+    max-width: 520px;   
+    margin: 0 auto;
+}
+
+
+.productos1, .productos2, .productos3{
+position:relative;
+transition: 
+    opacity 0.5s ease,
+    transform 0.5s ease,
+    visibility 0.5s;
+background-image: url(https://img.archiexpo.es/images_ae/photo-mg/191030-17991963.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 40px 0;
+text-align: center;
+flex: 1 1 0;
+border: 4px solid rgb(24, 36, 24);
+
+}
+
+.desplegable0{
+    font-size: 25px;
+    text-shadow: 8px 8px 8px rgb(10, 65, 10);
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.desplegable1 {
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: 
+        opacity 0.5s ease,
+        transform 0.5s ease,
+        visibility 0.5s;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 125px;
+    top: 125px;
+    transform: translateX(-50%) translateY(10px);
+    text-align: center;
+    background-position: center;
+    background-image: url(https://img.archiexpo.es/images_ae/photo-mg/191030-17991963.jpg);
+
+}
+
+.desplegable2{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: 
+        opacity 0.5s ease,
+        transform 0.5s ease,
+        visibility 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    left: 160px;
+    top: -40px;
+    text-align: center;
+    min-width: 200px;
+    background-position: center;
+    background-image: url(https://img.archiexpo.es/images_ae/photo-mg/191030-17991963.jpg);
+    height: 300px;
+}
+
+.desplegable2 li {
+    position: absolute;
+}
+.productos1:hover .desplegable1{
+    visibility: visible;
+    opacity: 1;
+    flex-direction: column;
+    transform: translateX(-50%) translateY(0);
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+
+
+.productos1:hover + .productos2,
+.productos1:hover ~ .productos3
+ {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sobres1:hover .desplegable2{
+    visibility: visible;
+    opacity: 1;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    transform: translateX(0);
+}
+
+.sobres1:hover + .cajas{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sobres1, .cajas {
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desplegable02  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    gap: 25px;
+    list-style: none;
+    left:200px;
+    position: relative;
+}
+
+.desplegable01  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    gap: 25px;
+    position: relative;
+}
+
+.desplegable02 li
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -200px;
+    top: -2px;
+}
